@@ -1,0 +1,6 @@
+apt search nomedoprogramaquepretendoinstalar
+apt install talprograma
+apt build-dep programa
+---------------------------------------------------------------------------
+dpkg -i --force-overwrite /var/cache/apt/archives/ruby-progressbar_1.10.1-1_all.deb
+apt --fix-broken -f install
